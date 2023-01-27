@@ -1,0 +1,43 @@
+@media (max-width: 570px){
+  header{
+    padding: 32px;
+  }
+  button div{
+    display: none;
+  }
+
+  #footer-general{
+    flex-direction: column;
+    height: 36vh;
+    padding: 15px;
+    gap: 12%;
+  }
+
+  .rodape-info{
+    align-items: center;
+  }
+}
+
+@media (max-width: 300px){
+  header{
+    padding: 21px;
+  }
+  button div{
+    display: none;
+  }
+
+  #form-habits{
+    padding: 132px 48px 48px;
+  }
+
+  #footer-general{
+    flex-direction: column;
+    height: 36vh;
+    padding: 15px;
+    gap: 12%;
+  }
+
+  .rodape-info{
+    align-items: center;
+  }
+}

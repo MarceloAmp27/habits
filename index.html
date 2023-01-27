@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/responsive.css">
+  <title>PortMar - Habits</title>
+</head>
+
+<body onload="loadPage()">
+  <header>
+    <img src="./assets/logo.svg" alt="Logo do App: habits">
+    <button>
+      <img src="./assets/plus.svg" alt="ícone sinal de +">
+      <div>
+        Registrar o meu dia
+      </div>
+    </button>
+    <!-- <button id="returnMain">
+          <img src="./assets/plus.svg" alt="ícone sinal de +">
+          <div>
+            Retornar ao menu
+          </div>
+        </button> -->
+  </header>
+  <form id="form-habits">
+    <div class="habits">
+      <div class="habit" data-name="run">🏃‍♂️</div>
+      <div class="habit" data-name="water">💧</div>
+      <div class="habit" data-name="gyn">💪</div>
+      <div class="habit" data-name="sleep">💤</div>
+      <div class="habit" data-name="dog">🐕‍🦺</div>
+      <div class="habit" data-name="food">🥘</div>
+    </div>
+    <div class="days"></div>
+  </form>
+  <footer id="footer-general">
+    <div class="social-info">
+      <div class="icons-info">
+        <a href="https://www.linkedin.com/in/marceloamp-04/" target="_blank" class="fa-brands fa-linkedin"></a>
+        <a href="https://github.com/MarceloAmp27" target="_blank" class="fa-brands fa-github"></a>
+        <a href="https://www.instagram.com/marceloamp_ofc/" target="_blank" class="fa-brands fa-instagram"></a>
+      </div>
+      <div class="contact-info">
+        <a href="tel:+5511988024979" class="fa-sharp fa-solid fa-mobile"></a>
+        <a href="mailto:marceloamellopaixao@gmail.com" class="fa-solid fa-inbox"></a>
+        <a href="https://wa.me/5511988024979" target="_blank" class="fa-brands fa-whatsapp"></a>
+      </div>
+    </div>
+    <div class="rodape-info">
+      <h1>PortMar - Portfólio Digital</h1>
+      <p>PortMar© Copyright by Marcelo Augusto || 01/2023</p>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+  <script src="https://kit.fontawesome.com/b83066dc1c.js" crossorigin="anonymous"></script>
+  <script src="./src/index.js"></script>
+  <script src="./src/alert.js"></script>
+</body>
+
+</html>
